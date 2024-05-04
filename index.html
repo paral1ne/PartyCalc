@@ -7,54 +7,56 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h2>EquiSplit</h2>
-      <button class="blue info">Справка</button>
-    </header>
-    <main>
-      <h2>Сюда добавить персон</h2>
-      <div class="container">
-        <div class="persons">
-          <label for="bbb">Имя</label>
-          <input class="name" type="text" placeholder="Введите имя" />
+    <div class="main_container">
+      <header>
+        <h2>EquiSplit</h2>
+        <button class="blue info">Справка</button>
+      </header>
+      <main>
+        <h2>Сюда добавить персон</h2>
+        <div class="container">
+          <div class="persons">
+            <label for="bbb">Имя</label>
+            <input class="name" type="text" placeholder="Введите имя" />
 
-          <label for="bbb">Заплатил</label>
-          <input
-            class="contribution"
-            type="text"
-            placeholder="Внесенная сумма"
-          />
-        </div>
-        <div class="persons">
-          <label for="bbb">Имя</label>
-          <input class="name" type="text" placeholder="Введите имя" />
+            <label for="bbb">Заплатил</label>
+            <input
+              class="contribution"
+              type="text"
+              placeholder="Внесенная сумма"
+            />
+          </div>
+          <div class="persons">
+            <label for="bbb">Имя</label>
+            <input class="name" type="text" placeholder="Введите имя" />
 
-          <label for="bbb">Заплатил</label>
-          <input
-            class="contribution"
-            type="text"
-            placeholder="Внесенная сумма"
-          />
+            <label for="bbb">Заплатил</label>
+            <input
+              class="contribution"
+              type="text"
+              placeholder="Внесенная сумма"
+            />
+          </div>
         </div>
-      </div>
-      <button data-add class="green">Добавить</button>
-      <button id="remove" class="red">Убрать</button>
-    </main>
-    <button id="calculate" class="blue">Посчитай!</button>
-    <p id="result"></p>
-    <div id="myModal" class="modal">
-      <div class="modal-content">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <p>
-          Почему делиться счетом должно быть сложнее, чем деление на ноль? Эта
-          программа сделает процесс распределения расходов между вашей компанией
-          друзей таким же простым, как детский смех. Забудьте о сложных
-          вычислениях и вечных спорах о том, кто кому должен и сколько! Просто
-          введите свои траты, нажмите кнопку и наслаждайтесь моментом, когда все
-          считаются равномерно, как в мире справедливости. И помните, если
-          что-то пошло не так, вините не программу, а своего друга, который
-          заказал еще одну порцию пиццы!"
-        </p>
+        <button data-add class="green">Добавить</button>
+        <button id="remove" class="red">Убрать</button>
+      </main>
+      <button id="calculate" class="blue">Посчитай!</button>
+      <p id="result"></p>
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>
+            Почему делиться счетом должно быть сложнее, чем деление на ноль? Эта
+            программа сделает процесс распределения расходов между вашей
+            компанией друзей таким же простым, как детский смех. Забудьте о
+            сложных вычислениях и вечных спорах о том, кто кому должен и
+            сколько! Просто введите свои траты, нажмите кнопку и наслаждайтесь
+            моментом, когда все считаются равномерно, как в мире справедливости.
+            И помните, если что-то пошло не так, вините не программу, а своего
+            друга, который заказал еще одну порцию пиццы!"
+          </p>
+        </div>
       </div>
     </div>
     <script src="script.js"></script>
